@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    color: cadetblue;
+    
+}
+
+body {
+    
+    margin: 0px;
+}
+
+html,body {
+    height: 100%;
+}
+
+
+#myNavBar  {
+    background-color: black !important;
+}
+
+#nav {
+    position: absolute;
+    
+}
+
+#PP {
+    margin: 0px;
+    position: relative;
+    left: 50px;
+    border: 6px solid cadetblue;
+    border-radius: 50%;
+    height: 270px;
+    width: 270;
+    
+}
+
+.header {
+    margin-bottom: 0px;
+    background-color: rgb(4, 23, 43);
+    height: 700px;
+}
+.Name {
+    color: cadetblue;
+    position: relative;
+    
+    bottom: -175px;
+}
+
+#InfoBody {
+    display: flex;
+}
+
+#work {
+    position: relative;
+    background-color: rgb(4, 23, 43);
+    top: 200px;
+    left: 125px;
+    right: 100px;
+    height: 550px;
+    width: 1000px;
+}
+
+#DOB {
+    position: relative;
+    right: 42px
+}
+
+#phoneinfo {
+    position: relative;
+    right: 15px;
+}
+
+#maile {
+    position: relative;
+    right: 30px;
+}
+
+#mainBody {
+   
+    
+    margin: 0px;
+    height: 1250px;
+    background-color: rgb(1, 29, 54);
+}
+
+
+h2.PortInfo {
+    margin: 0px;
+    position: relative;
+    color: black;
+    
+}
+
+#PhoneBox {
+
+    
+    position: relative;
+    background-color: rgb(4, 23, 43);
+    height: 400px;
+    width: 350px;
+    top: 100px;
+    left: 75px;
+    
+}
+
+#infoBox {
+
+    position: relative;
+    background-color: rgb(4, 23, 43);
+    height: 400px;
+    width: 350px;
+    top: 100px;
+    left: 50px;
+    margin-left: 450px;
+
+}
+
+
+
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mostafa Alkhatib</title>
+</head>
+<body>
+    <div class="w3-top" id="nav">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+          <a href="#home" class="w3-bar-item w3-button w3-wide">M O S T A F A</a>
+          
+          <div class="w3-right w3-hide-small">
+            
+            <a href="https://www.facebook.com/profile.php?id=100010171879420" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-facebook-official w3-hover-opacity" title="Facebook">  </i>     <span style="color: black;">FACEBOOK</span></a>
+            <a href="https://www.instagram.com/mostafa_alkhatep/" target="_blank" class="w3-bar-item w3-button"><span style="color: black;"><i class="fa fa-instagram " title="Instagram"></i></span>     <span style="color: black;">INSTAGRAM</span></a>
+            <a href="https://t.me/MOSTAFA70007" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-telegram"></i>     <span style="color: black;">TELEGRAM</span></a>
+          </div>
+          
+      
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+            
+          </a>
+        </div>
+      </div>
+    
+      <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="https://t.me/MOSTAFA70007" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">TELEGRAM</a>
+        <a href="https://www.instagram.com/mostafa_alkhatep/" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">INSTAGRAM</a>
+        <a href="https://www.facebook.com/profile.php?id=100010171879420" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">FACEBOOK</a>
+      </nav>
+
+    <header>
+        <div class="header">
+            <center>
+                <h1 class="Name" id="pride"> Mostafa Alkhatib </h1>
+                <h2 class="Name">Faculty of Electrical & Electronic Engineer</h2>
+            </center>
+            <img src="pp.jpg" id="PP">
+        </div>
+    </header>
+  
+    <div id="mainBody">
+
+      <div id="InfoBody">
+        
+            <div id="PhoneBox">
+
+              <center>
+              <p style="font-size: 25px;"><br><i class="fa fa-info-circle" id="infoIcon"></i>           About <br> <h4>_______________________</h4><br></p>
+              <p style="font-family: Arial;" id="phoneinfo"><i class="fa fa-phone"></i>         Phone Number: +963 956086221<br></p>
+              <p><br></p>
+              <p style="font-family: Arial;" id="DOB"><i class="fa fa-birthday-cake"></i>            Day of Birth: 20/12/2000<br></p>
+              <p><br></p>
+              <p style="font-family: Arial;" id="mail"><i class="fa fa-envelope"></i>            Email: mostafaalkhatep0@gmail.com</p>
+              </center>
+
+            </div>  
+
+            <div id="infoBox">
+
+              <center>
+              <p style="font-size: 25px;"><br><i class="fa fa-book"></i>       Study <br> <h4>_______________________</h4><br></p>
+              <p style="font-family: Arial;">College <strong>:</strong> Electronic & Medical Engineering</p>
+              <p style="font-family: Arial; position: relative; right: 44px;">Years of Experience<strong>:</strong> 5 Years</p>
+              
+              </center>
+
+            </div> 
+        </div>
+        
+      <div id="work">
+
+        <center>
+          <h2><br><i class="fa fa-shopping-bag"></i>      Work Experience<br>__________________________</h2>
+          <h2>HTML & CSS:</h2>
+          <progress id="htmlprogress" value="71" max="100" style="color: black;"> 71%</progress> <p style="font-family: Arial, Helvetica, sans-serif; color: cadetblue; font-size: 15px;">   71%</p>
+          <br>
+          <h2>Java:</h2>
+          <progress id="javaprogress" value="95" max="100" style="color: black;"> 95%</progress> <p style="font-family: Arial, Helvetica, sans-serif; color: cadetblue; font-size: 15px;">   95%</p>
+          <br>
+          <h2>C++:</h2>
+          <progress id="cplusprogress" value="90" max="100" style="color: black;"> 90%</progress> <p style="font-family: Arial, Helvetica, sans-serif; color: cadetblue; font-size: 15px;">   90%</p>
+          <br>
+        </center>
+
+
+
+      </div>
+          
+          
+    
+    </div>
+
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+      
+      
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+      var mySidebar = document.getElementById("mySidebar");
+      
+      function w3_open() {
+        if (mySidebar.style.display === 'block') {
+          mySidebar.style.display = 'none';
+        } else {
+          mySidebar.style.display = 'block';
+        }
+      }
+      
+      // Close the sidebar with the close button
+      function w3_close() {
+          mySidebar.style.display = "none";
+      }
+      
+      function popAlert() {
+        window.alert("Sorry, but this service is not available now!\nyou can contact me on this email instead!\nmolham.work9@gmail.com");
+      }
+      
+      function rickroll() {
+        window.alert("Get Rickrolled nerd\nProgrammers don't have a facebook account because they are ugly (not all of them)")
+      }
+      </script>
+    
+</body>
+</html>
